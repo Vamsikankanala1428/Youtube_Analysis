@@ -1,31 +1,35 @@
-# Youtube_Analysis
-## Data Engineering YouTube Analysis Project by Vamsi Kankanala
+# YouTube Analysis
 
+## Data Engineering YouTube Analysis Project by Vamsi Kankanala
 ## Overview
 
-This project aims to securely manage, streamline, and perform analysis on the structured and semi-structured YouTube videos data based on the video categories and the trending metrics.
+This project focuses on securely managing, streamlining, and analyzing structured and semi-structured YouTube video data. The analysis is based on video categories and trending metrics, helping derive insights from popular content.
 
 ## Project Goals
 
-Data Ingestion — Build a mechanism to ingest data from different sources
-ETL System — We are getting data in raw format, transforming this data into the proper format
-Data lake — We will be getting data from multiple sources so we need centralized repo to store them
-Scalability — As the size of our data increases, we need to make sure our system scales with it
-Cloud — We can’t process vast amounts of data on our local computer so we need to use the cloud, in this case, we will use AWS
-Reporting — Build a dashboard to get answers to the question we asked earlier
+Data Ingestion – Develop a mechanism to collect data from multiple sources.
+ETL System – Transform raw data into a structured format for analysis.
+Data Lake – Store data in a centralized repository for efficient access and management.
+Scalability – Ensure the system can handle increasing data volumes effectively.
+Cloud Integration – Leverage AWS for scalable data processing and storage.
+Reporting – Build an interactive dashboard to visualize key insights.
 
-## Services we will be using
+## AWS Services Used
 
-Amazon S3: Amazon S3 is an object storage service that provides manufacturing scalability, data availability, security, and performance.
-AWS IAM: This is nothing but identity and access management which enables us to manage access to AWS services and resources securely.
-QuickSight: Amazon QuickSight is a scalable, serverless, embeddable, machine learning-powered business intelligence (BI) service built for the cloud.
-AWS Glue: A serverless data integration service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development.
-AWS Lambda: Lambda is a computing service that allows programmers to run code without creating or managing servers.
-AWS Athena: Athena is an interactive query service for S3 in which there is no need to load data it stays in S3.
+Amazon S3 – Scalable object storage for securely storing raw and processed data.
+AWS IAM – Identity and access management for securing AWS resources.
+Amazon QuickSight – Cloud-based BI tool for interactive data visualization.
+AWS Glue – Serverless data integration service for data discovery, transformation, and preparation.
+AWS Lambda – Serverless computing to automate data processing tasks.
+AWS Athena – Interactive query service for analyzing S3-stored data without loading it into a database.
 
 ## Dataset Used
 
-This Kaggle dataset contains statistics (CSV files) on daily popular YouTube videos over the course of many months. There are up to 200 trending videos published every day for many locations. The data for each region is in its own file. The video title, channel title, publication time, tags, views, likes and dislikes, description, and comment count are among the items included in the data. A category_id field, which differs by area, is also included in the JSON file linked to the region.
+The dataset, sourced from Kaggle, contains statistics on daily trending YouTube videos across multiple regions. Each region has a separate CSV file with up to 200 trending videos per day. The dataset includes:
+Video title, channel name, publication time, and tags
+Metrics: Views, likes, dislikes, and comment count
+Description and category_id, which varies by region and is mapped in a JSON file
+This project aims to uncover trends, patterns, and insights from YouTube's trending videos using AWS-based data engineering solutions.
 
 [Kaggle Dataset](https://www.kaggle.com/datasets/datasnaek/youtube-new).
 
