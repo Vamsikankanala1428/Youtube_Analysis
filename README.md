@@ -1,5 +1,5 @@
 # Youtube_Analysis
-Data Engineering YouTube Analysis Project by Darshil Parmar
+Data Engineering YouTube Analysis Project by Vamsi Kankanala
 Overview
 
 This project aims to securely manage, streamline, and perform analysis on the structured and semi-structured YouTube videos data based on the video categories and the trending metrics.
